@@ -77,18 +77,15 @@ color: #4D5AE5;
   }
   .header-tel:hover{
     color:#404BBF;
-    font-size: 26px;
   }
   .header-tel:focus{
     color:#404BBF;
-    font-size: 21px;
   }
   /**--------Section1------*/
   .section-one {
     background-color: #2E2F42;
   }
   .section-one-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     /* or 107% */
@@ -122,7 +119,7 @@ color: #4D5AE5;
   }
   .about-item-title{
     font-size: 20px;
-line-height: 1.2;
+    line-height: 1.2;
 /* identical to box height, or 120% */
 
 letter-spacing: 0.02em;
