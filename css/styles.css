@@ -1,16 +1,4 @@
-:root {
-	--color-iris: #4d5ae5;
-	--color-ocean: #000000;
-	--color-navy-blue: #2e2f42;
-	--color-green: #31d0aa;
-	--color-slate: #434455;
-	--color-light-slate: #8e8f99;
-	--color-cornflower: #e7e9fc;
-	--color-cloud: #f4f4fd;
-	--color-navy-blue-modal: #2e2f42;
-	--color-grey: #2e2f42;
-	--color-white: #ffffff;
-body {
+	body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
 }
@@ -25,8 +13,7 @@ body {
   font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,17;
-  /* identical to box height, or 133% */
+  line-height: 1,33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -59,9 +46,7 @@ span.ingredient {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-      /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-      /* SLATE */
     color: #434455;
   }
   .header-mail:hover{
@@ -74,9 +59,7 @@ span.ingredient {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-      /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-      /* SLATE */
     color: #434455;
   }
   .header-tel:hover{
@@ -92,7 +75,6 @@ span.ingredient {
   .section-one-title {
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -111,7 +93,6 @@ span.ingredient {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
     letter-spacing: 0.02em;
     color: #2E2F42;
   }
@@ -122,14 +103,12 @@ span.ingredient {
   .about-item-title{
     font-size: 20px;
     line-height: 1.2;
-/* identical to box height, or 120% */
-   letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     color: #2E2F42;
   }
   .about-text {
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
     color: #434455;
   }
@@ -138,12 +117,10 @@ span.ingredient {
   }
   .what-title {
     font-size: 36px;
-    line-height: 1.1;
-/* identical to box height, or 111% */
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-/* NAVY BLUE */
     color: #2E2F42;
   }
   .what-list, {
@@ -153,57 +130,41 @@ span.ingredient {
   /*-----section 4 our team ------*/
   .ourteam {
   }
-  .ourteam-title {
-    font-size: 36px;
-line-height: 1.11;
-/* identical to box height, or 111% */
-
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
-
-  }
-  .ourteam-list, {
-  }
-  .list {
-  }
-  .ourteam-item {
-  }
-  .ourteam-item-title {
-    font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-letter-spacing: 0.02em;
-/* NAVY BLUE */
-color: #2E2F42;
-  }
-  .ourteam-text {
-    font-size: 16px;
-line-height: 1.5;
-/* identical to box height, or 150% */
-letter-spacing: 0.02em;
-/* SLATE */
-color: #434455;
-  }
+.ourteam-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+.ourteam-list, {
+}
+.ourteam-item {
+}
+.ourteam-item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+.ourteam-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*!------Portfolio------*/
 /*-------Section1-------*/
 .buttons {
-
 }
 .buttons-title {
 }
 .btnportfolio {
-  /* Button Text */
-
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
 display: flex;
 align-items: center;
 text-align: center;
@@ -212,48 +173,33 @@ color: #4D5AE5;
 cursor: pointer;
 }
 .btnportfolio:hover {
-  /* OCEAN */
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #404BBF;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
-/* Button Text */
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-/* WHITE */
 color: #FFFFFF;
 cursor: pointer;
 }
 .btnportfolio:focus {
-  /* OCEAN */
-
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #404BBF;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
-/* Button Text */
-
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
+line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
-/* WHITE */
-
 color: #FFFFFF;
-
-
 }
 /*-------Section2-------*/
 
