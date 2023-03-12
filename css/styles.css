@@ -34,7 +34,6 @@ body {
  }
  .header-link:focus{
    color:#404BBF;
-    border: 1px solid #000000;
   }
   .header-mail{
     font-style: normal;
