@@ -9,7 +9,7 @@ body {
   list-style: none;
  }
 /**---------HEADER-----*/
-.header-logo-web{
+.header-logo {
   font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -30,21 +30,10 @@ body {
    color: #2E2F42; 
  }
  .header-link:hover{
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-    /* identical to box height, or 150% */
-   letter-spacing: 0.02em;
-   color:#404BBF;
-   border: 1px solid #000000;
+    color:#404BBF;
  }
  .header-link:focus{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-/* identical to box height, or 150% */
-    letter-spacing: 0.02em;
-    color:#404BBF;
+   color:#404BBF;
     border: 1px solid #000000;
   }
   .header-mail{
