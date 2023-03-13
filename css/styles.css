@@ -60,22 +60,30 @@ span.ingredient {
     color:#404BBF;
   }
     .header-mail{
-    
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   .header-mail:hover{
-    
+    color:#404BBF;
   }
   .header-mail:focus{
-   
+    color:#404BBF;
   }
   .header-tel {
-
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   .header-tel:hover{
- 
+    color:#404BBF;
   }
   .header-tel:focus{
-  
+    color:#404BBF;
   }
   /**--------Section1------*/
   .section-one {
