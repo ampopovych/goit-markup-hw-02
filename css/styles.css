@@ -43,35 +43,20 @@ span.ingredient {
  .header-link:focus{
    color:#404BBF;
   }
-  .header-adress {
-    font-style: normal;
-  }
-  .header-item-address{
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-  }
-  .header-item-address:hover{
-    color:#404BBF;
-  }
-  .header-item-address:focus{
-    color:#404BBF;
-  }
-    .header-mail{
+.contact-link{
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
   }
-  .header-mail:hover{
+  .contact-link:hover{
     color:#404BBF;
   }
-  .header-mail:focus{
+  .contact-link:focus{
     color:#404BBF;
   }
+  /**---
   .header-tel {
     font-style: normal;
     font-size: 16px;
@@ -85,6 +70,7 @@ span.ingredient {
   .header-tel:focus{
     color:#404BBF;
   }
+  **/
   /**--------Section1------*/
   .section-one {
     background-color: #2E2F42;
