@@ -10,7 +10,7 @@
  }
 /**---------HEADER-----*/
 .header-logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1,17;
@@ -43,6 +43,10 @@ span.ingredient {
  .header-link:focus{
    color:#404BBF;
   }
+  .header-adress {
+    font-style: normal;
+  }
+  
   .header-mail{
     font-style: normal;
     font-size: 16px;
