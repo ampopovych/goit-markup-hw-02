@@ -13,7 +13,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -45,6 +45,19 @@ span.ingredient {
   }
   .header-adress {
     font-style: normal;
+  }
+  .header-item-address{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+  }
+  .header-item-address:hover{
+    color:#404BBF;
+  }
+  .header-item-address:focus{
+    color:#404BBF;
   }
     .header-mail{
     font-style: normal;
