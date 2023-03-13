@@ -46,8 +46,7 @@ span.ingredient {
   .header-adress {
     font-style: normal;
   }
-  
-  .header-mail{
+    .header-mail{
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -85,6 +84,11 @@ span.ingredient {
     color: #FFFFFF;
   }
   .btn {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: white;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -106,6 +110,7 @@ span.ingredient {
   .about-item {
   }
   .about-item-title{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -148,6 +153,7 @@ span.ingredient {
 .ourteam-item {
 }
 .ourteam-item-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
