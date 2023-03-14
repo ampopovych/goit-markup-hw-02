@@ -98,7 +98,7 @@ span.ingredient {
   background-color: var(--color-ocean);
   }
   .btn:focus{
-  color: --color-ocean;
+  color: var(--color-ocean);
   background-color: var(--color-ocean);
   }
   /**--------Section2 About-------*/
