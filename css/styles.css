@@ -1,6 +1,19 @@
-	body {
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #000000;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+}
+  body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--color-slate);
 }
  .link{
   text-decoration: none;
@@ -19,7 +32,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /***------Color-----***/
-  color: #4D5AE5;
+  color: var(--color-iris);
 }
 span.ingredient {
   font-family: 'Raleway';
@@ -27,7 +40,7 @@ span.ingredient {
   font-size: 18px;
   line-height: 1.33;
 /* identical to box height, or 133% */
-  color: #2E2F42;
+  color: var(--color-grey);
 }
  .header-link {
    font-weight: 500;
@@ -35,13 +48,13 @@ span.ingredient {
    line-height: 1.5;
    /* identical to box height, or 150% */
    letter-spacing: 0.02em;
-   color: #2E2F42; 
+   color: var(--color-grey); 
  }
  .header-link:hover{
-    color:#404BBF;
+    color: var(--color-iris);
  }
  .header-link:focus{
-   color:#404BBF;
+   color: var(--color-iris);
   }
 .header-adress{
   font-style: normal;
@@ -51,24 +64,24 @@ span.ingredient {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
   }
   .contact-link:hover{
-    color:#404BBF;
+    color: var(--color-iris);
   }
   .contact-link:focus{
-    color:#404BBF;
+    color: var(--color-iris);
   }
   /**--------Section1------*/
   .section-one {
-    background-color: #2E2F42;
+    background-color: var(--color-grey);
   }
   .section-one-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-white);
   }
   .btn {
     font-family: "Roboto", sans-serif; 
@@ -76,8 +89,8 @@ span.ingredient {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: white;
-    background: #4D5AE5;
+    color: var(--color-white);
+    background: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -90,7 +103,7 @@ span.ingredient {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-grey);
   }
   .about-list, {
   }
@@ -101,13 +114,13 @@ span.ingredient {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-grey);
   }
   .about-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
   }
   /**--------Section3 What-------*/
   .what {
@@ -118,7 +131,7 @@ span.ingredient {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-grey);
   }
   .what-list, {
   }
@@ -133,7 +146,7 @@ span.ingredient {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--color-grey);
 }
 .ourteam-list, {
 }
@@ -144,17 +157,17 @@ span.ingredient {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--color-grey);
 }
 .ourteam-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate);
 }
 /*-----footer ------*/
 .footer {
-  background-color: #2e2f42
+  background-color: var(--color-grey);
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -166,7 +179,7 @@ span.ingredient {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /***------Color-----***/
-  color: #4D5AE5;
+  color: var(--color-iris);
 }
 .link {
 }
@@ -176,13 +189,13 @@ span.ingred {
   font-size: 18px;
   line-height: 1.33;
 /* identical to box height, or 133% */
-  color:#f4f4fd;
+  color: var(--color-cloud);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color:  var(--color-cloud);
 }
 /*!------Portfolio------*/
 /*-------Section1-------*/
@@ -196,12 +209,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #4d5ae5;
+color: var(--color-iris);
 cursor: pointer;
 }
 .btnportfolio:hover {
 font-family: 'Roboto';  
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #404BBF;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-iris);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 font-family: 'Roboto';
@@ -209,11 +222,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--color-white);
 cursor: pointer;
 }
 .btnportfolio:focus {
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #404BBF;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-iris);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 font-family: 'Roboto';
@@ -224,22 +237,16 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--color-white);
 }
 /*-------Section2-------*/
-
 .service {
 }
 .service-title {
   font-size: 20px;
 line-height: 1.2;
-/* identical to box height, or 120% */
-
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--color-grey);
 }
 .service-list, {
 }
@@ -250,12 +257,6 @@ color: #2E2F42;
 .service-text {
   font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
-
 letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: #434455;
-
+color: var(--color-slate);
 }
