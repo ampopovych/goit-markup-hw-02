@@ -50,10 +50,10 @@ span.ingredient {
    color: var(--color-grey); 
  }
  .header-link:hover{
-    color: var(--color-iris);
+    color: var(--color-ocean);
  }
  .header-link:focus{
-   color: var(--color-iris);
+   color: var(--color-ocean);
   }
 .header-adress{
   font-style: normal;
@@ -66,10 +66,10 @@ span.ingredient {
     color: var(--color-slate);
   }
   .contact-link:hover{
-    color: var(--color-iris);
+    color: var(--color-ocean);
   }
   .contact-link:focus{
-    color: var(--color-iris);
+    color: var(--color-ocean);
   }
   /**--------Section1------*/
   .section-one {
