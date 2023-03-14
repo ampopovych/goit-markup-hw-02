@@ -1,6 +1,6 @@
 :root {
 	--color-iris: #4d5ae5;
-	--color-ocean: #000000;
+	--color-ocean: #404BBF;
 	--color-navy-blue: #2e2f42;
 	--color-green: #31d0aa;
 	--color-slate: #434455;
@@ -14,6 +14,7 @@
   body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-slate);
+  background-color: var(--color-white);
 }
  .link{
   text-decoration: none;
@@ -27,7 +28,6 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -46,7 +46,6 @@ span.ingredient {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
-   /* identical to box height, or 150% */
    letter-spacing: 0.02em;
    color: var(--color-grey); 
  }
@@ -95,6 +94,12 @@ span.ingredient {
     border-radius: 4px;
     cursor: pointer;
   }
+  .btn:hover{
+    background-color: var(--color-ocean);
+  }
+  .btn:focus{
+    background-color: var(--color-ocean);
+  }
   /**--------Section2 About-------*/
   .about {
   }
@@ -139,6 +144,7 @@ span.ingredient {
   }
   /*-----section 4 our team ------*/
   .ourteam {
+    background-color: var(--color-cloud);
   }
 .ourteam-title {
   font-size: 36px;
@@ -151,6 +157,7 @@ span.ingredient {
 .ourteam-list, {
 }
 .ourteam-item {
+  background-color: var(--color-white);
 }
 .ourteam-item-title {
   font-weight: 500;
@@ -174,11 +181,9 @@ span.ingredient {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /***------Color-----***/
   color: var(--color-iris);
 }
 .link {
@@ -188,7 +193,6 @@ span.ingred {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-/* identical to box height, or 133% */
   color: var(--color-cloud);
 }
 .footer-text {
@@ -211,10 +215,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--color-iris);
 cursor: pointer;
+background: var(--color-cloud);
 }
 .btnportfolio:hover {
 font-family: 'Roboto';  
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-iris);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-ocean);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 font-family: 'Roboto';
@@ -226,7 +231,7 @@ color: var(--color-white);
 cursor: pointer;
 }
 .btnportfolio:focus {
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-iris);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--color-ocean);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 font-family: 'Roboto';
@@ -243,7 +248,7 @@ color: var(--color-white);
 .service {
 }
 .service-title {
-  font-size: 20px;
+font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-grey);
