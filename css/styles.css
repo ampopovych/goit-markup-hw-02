@@ -94,9 +94,11 @@ span.ingredient {
     cursor: pointer;
   }
   .btn:hover{
+    color: --color-ocean;
     background-color: var(--color-ocean);
   }
   .btn:focus{
+    color: --color-ocean;
     background-color: var(--color-ocean);
   }
   /**--------Section2 About-------*/
